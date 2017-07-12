@@ -1,6 +1,5 @@
 int sum(int n){
-		int res=0;
-			for(int i=1;i=100;i++)
-						res+=i;
-				return res;
+		int sum=0;
+		sum = (n+1)*n/2f;
+		return sum;
 }
